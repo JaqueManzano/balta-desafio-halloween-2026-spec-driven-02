@@ -20,6 +20,10 @@ do projeto.
 - D-04: unicidade do código garantida por índice único no banco, além da
   checagem no serviço, porque a checagem sozinha tem corrida
 - D-05: chave de gerenciamento da DC-03 armazenada como hash, nunca em texto puro
+- D-06: Microsoft.AspNetCore.Mvc.Testing no projeto de testes, para exercitar os
+  endpoints Minimal API em integração sem iniciar um servidor externo
+- D-07: Swashbuckle.AspNetCore para gerar a especificação OpenAPI e servir a UI
+  Swagger somente em desenvolvimento, facilitando a exploração dos endpoints
 
 ## Modelo de dados
 Link

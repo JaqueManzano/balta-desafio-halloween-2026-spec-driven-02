@@ -1,0 +1,30 @@
+# .NET build and test output
+**/bin/
+**/obj/
+TestResults/
+coverage/
+
+# IDE and user-specific files
+.vs/
+.idea/
+*.user
+*.suo
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
